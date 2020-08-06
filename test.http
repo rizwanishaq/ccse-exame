@@ -1,0 +1,14 @@
+### Get Request
+GET http://localhost:5000/questions
+
+### POST REQUEST
+
+POST http://localhost:5000/createquestion
+Content-Type: application/json
+
+{
+   "question": "Whats is your name 2nd?",
+   "answer": " my name is name",
+   "others": ["1234567","12343","56767"],
+   "tarea": 1
+}
